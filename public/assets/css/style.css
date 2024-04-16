@@ -1,0 +1,82 @@
+a {
+    text-decoration: none !important;
+}
+
+.navbar-color {
+    background-color: #146b88;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.btn-color {
+    color: white !important;
+    background-color: #146b88 !important;
+}
+
+.btn-search {
+    color: white !important;
+    background-color: #17a076 !important;
+}
+
+.btn-search:hover {
+    color: white !important;
+    background-color: #122d55 !important;
+}
+
+.red-point {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+
+/* Avatar stilleri */
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    /* Hafif mavi arka plan */
+    color: #ffffff;
+    /* Beyaz yazı rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    /* Yazı boyutu */
+    font-weight: bold;
+    /* Kalın yazı */
+    text-transform: uppercase;
+    /* Harfleri büyük harfe dönüştür */
+    box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5);
+    /* Hafif bir gölge */
+    cursor: pointer;
+    /* Tıklanabilir imleç */
+}
+
+
+/* Dropdown menüsü stilleri */
+
+.dropdown-menu {
+    min-width: auto;
+    /* Minimum genişlik */
+    border: none;
+    /* Kenarlık yok */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    /* Hafif bir gölge */
+}
+
+.dropdown-item {
+    color: #000000;
+    /* Menü öğelerinin metin rengi */
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: #f8f9fa;
+    /* Öğe üzerine gelindiğinde arka plan rengi */
+}
